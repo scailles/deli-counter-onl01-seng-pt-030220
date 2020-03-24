@@ -6,8 +6,8 @@ def line(deli_line)
     puts "The line is currently empty."
   
   else deli_line.size >= 1
-    deli_line.each.with_index(1) do |person, index|
-    current<< "#{index}. #{person}."
+    deli_line.each.with_index(1) do |person, place|
+    current<< "#{place}. #{person}."
   end
   current
 end
