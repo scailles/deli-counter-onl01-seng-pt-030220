@@ -23,4 +23,6 @@ def now_serving(number)
   if number.size==0
 puts "The line is currently empty"
 else number.size >=1
+  puts
+  
 
