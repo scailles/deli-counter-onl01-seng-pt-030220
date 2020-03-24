@@ -23,7 +23,7 @@ def now_serving(number, index)
   if number.size==0
 puts "There is nobody waiting to be served!"
 else number.size >=1
-  puts "Currently serving #{number.index(1)}."
+  puts "Currently serving #{number.index}."
   number.shift
 end
 end
