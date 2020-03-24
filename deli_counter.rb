@@ -9,4 +9,5 @@ def line(deli_line)
     deli_line.each.with_map(1) do |person, index|
     current<<  "#{index}. #{person}."
   end
+  current
 end
