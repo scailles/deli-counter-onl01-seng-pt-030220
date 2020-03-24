@@ -7,7 +7,7 @@ def line(deli_line)
   
   else deli_line.size >= 1
     deli_line.each.with_index(1) do |person, index|
-    current<<  "#{index}. #{person}."
+    current<< "#{index}. #{person}."
   end
   current
 end
