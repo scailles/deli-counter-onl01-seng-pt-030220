@@ -1,7 +1,8 @@
 deli_line=[]
 
 def line(deli_line)
-  current="The line is currently: "
+  current="The line is currently:"
+  
   if deli_line.size==0
     puts "The line is currently empty."
   
