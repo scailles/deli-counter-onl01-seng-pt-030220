@@ -5,7 +5,7 @@ def line(line)
   if line.size==0
     puts "The line is currently empty."
   end
-  else
+  else line.size > 0
     line.each.with_map(1) do |person, index|
     current<<  "#{index}. #{person}."
   end
