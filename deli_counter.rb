@@ -19,11 +19,11 @@ def take_a_number(number,name)
   puts "Welcome, #{name}. You are number #{number.length} in line."
 end
 
-def now_serving(number)
+def now_serving(number, index)
   if number.size==0
 puts "There is nobody waiting to be served!"
 else number.size >=1
-  puts "Currently serving #{number}."
+  puts "Currently serving #{number.index(1)}."
   number.shift
 end
 end
