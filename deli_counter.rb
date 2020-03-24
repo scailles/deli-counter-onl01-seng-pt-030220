@@ -24,8 +24,8 @@ def now_serving(number)
 puts "There is nobody waiting to be served!"
 else number.size >=1
   puts "Currently serving #{number(1)}."
+  number.shift
 end
-number.
 end
   
 
