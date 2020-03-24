@@ -6,7 +6,7 @@ def line(deli_line)
     puts "The line is currently empty."
   
   else line.size >= 1
-    line.each.with_map(1) do |person, index|
+    deli_line.each.with_map(1) do |person, index|
     current<<  "#{index}. #{person}."
   end
 end
