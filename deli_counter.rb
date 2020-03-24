@@ -1,15 +1,16 @@
-deli_line=[]
+number=[]
 
-def line(deli_line)
+def line(number)
+if number.size==0
+puts "The line is currently empty."
+
+else number.size>=1 
   current="The line is currently:"
-  
-  if deli_line.size==0
-    puts "The line is currently empty."
-  
-  else deli_line.size >= 1
-    deli_line.each.with_index(1) do |person, place|
-    current << "#{place}. #{person}."
+  number.each.with_index(1) do |name, place|
+    current<<" #{place}. #{name}"
   end
-  current
+puts current
 end
 end
+
+
